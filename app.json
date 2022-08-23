@@ -1,0 +1,30 @@
+{
+  "name": "小白:随便",
+  "description": "小白:随便",
+  "keywords": [
+    "小白:随便"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "支持的协议VMess或VLESS，请填小写的vmess或vless,默认是vmess协议的，可以自行修改成vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/happya",
+      "required": true
+    }
+  },
+  "website": "https://github.com/用户名/仓库名",
+  "repository": "https://github.com/用户名/仓库名",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
